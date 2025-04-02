@@ -10,4 +10,9 @@ class PageViewModel {
     counter.value++;
     counter2.value++;
   }
+
+  void dispose() {
+    counter.dispose();
+    counter2.dispose();
+  }
 }

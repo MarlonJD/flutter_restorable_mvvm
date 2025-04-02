@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> with RestorationMixin {
 
   @override
   void dispose() {
-    _viewModel.counter.dispose();
+    _viewModel.dispose();
     super.dispose();
   }
 }
